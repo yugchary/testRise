@@ -10,10 +10,7 @@ pipeline {
         stage('Compile Stage') {
             steps {
                 echo 'Hello World'
-                // Get some code from a GitHub repository
-                git 'https://github.com/yugchary/testRise.git'
-
-          
+                     
 
                 // To run Maven on a Windows agent, use
                 bat "mvn clean"
