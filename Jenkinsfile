@@ -24,7 +24,7 @@ pipeline {
                      
 
                 // To run Maven on a Windows agent, use
-                bat "mvn test -Dsurefire.suiteXmlFiles=C:\Users\yugandher.akkunuru\eclipse-workspace\testRise\risetestng_DryRun.xml"
+                bat "mvn test -Dsurefire.suiteXmlFiles=C:\\Users\yugandher.akkunuru\\eclipse-workspace\\testRise\\risetestng_DryRun.xml"
                 
                 
                 
