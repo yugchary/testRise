@@ -9,11 +9,25 @@ pipeline {
     stages {
         stage('Compile Stage') {
             steps {
-                echo 'Hello World'
+                echo 'compiling'
                      
 
                 // To run Maven on a Windows agent, use
-                bat "mvn clean"
+                bat "mvn clean compile"               
+                
+               
+            }
+        }
+        stage('Testing Stage') {
+            steps {
+                echo 'testing'
+                     
+
+                // To run Maven on a Windows agent, use
+                bat "mvn test -Dsurefire.suiteXmlFiles=C:\Users\yugandher.akkunuru\eclipse-workspace\testRise\risetestng_DryRun.xml"
+                
+                
+                
             }
         }
     }
