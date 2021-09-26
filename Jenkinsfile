@@ -7,13 +7,13 @@ pipeline {
     }
 
     stages {
-        stage('Compile Stage') {
+        stage('Clean stage') {
             steps {
                 echo 'compiling'
                      
 
                 // To run Maven on a Windows agent, use
-                bat "mvn clean compile"               
+                bat "mvn clean"               
                 
                
             }
