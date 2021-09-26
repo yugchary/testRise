@@ -8,16 +8,16 @@
       <![CDATA[Exception observed while loading instance URL or deletion of data :: java.lang.NullPointerException: null value in entry: url=null]]>
     </line>
   </reporter-output>
-  <suite name="Rise Test Suite" duration-ms="13932" started-at="2021-09-26T18:00:33Z" finished-at="2021-09-26T18:00:47Z">
+  <suite name="Rise Test Suite" duration-ms="11057" started-at="2021-09-26T18:04:56Z" finished-at="2021-09-26T18:05:07Z">
     <groups>
       <group name="Yug">
         <method signature="LoginTest.testLogin()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin" class="com.forsys.rise.LoginTests.LoginTest"/>
         <method signature="LoginTest.testLogin2()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin2" class="com.forsys.rise.LoginTests.LoginTest"/>
       </group> <!-- Yug -->
     </groups>
-    <test name="RISE tests" duration-ms="13932" started-at="2021-09-26T18:00:33Z" finished-at="2021-09-26T18:00:47Z">
+    <test name="RISE tests" duration-ms="11057" started-at="2021-09-26T18:04:56Z" finished-at="2021-09-26T18:05:07Z">
       <class name="com.forsys.rise.LoginTests.LoginTest">
-        <test-method status="PASS" signature="loadData(java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="loadData" is-config="true" duration-ms="13" started-at="2021-09-26T23:30:33Z" finished-at="2021-09-26T23:30:33Z">
+        <test-method status="PASS" signature="loadData(java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="loadData" is-config="true" duration-ms="13" started-at="2021-09-26T23:34:56Z" finished-at="2021-09-26T23:34:56Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadData -->
-        <test-method status="PASS" signature="LoginToAdminApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="LoginToAdminApp" is-config="true" duration-ms="12908" started-at="2021-09-26T23:30:33Z" finished-at="2021-09-26T23:30:46Z">
+        <test-method status="PASS" signature="LoginToAdminApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="LoginToAdminApp" is-config="true" duration-ms="10168" started-at="2021-09-26T23:34:56Z" finished-at="2021-09-26T23:35:06Z">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToAdminApp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin" duration-ms="17" started-at="2021-09-26T23:30:46Z" description="Test the rise Logn" finished-at="2021-09-26T23:30:46Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin" duration-ms="20" started-at="2021-09-26T23:35:06Z" description="Test the rise Logn" finished-at="2021-09-26T23:35:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteData" is-config="true" duration-ms="36" started-at="2021-09-26T23:30:46Z" finished-at="2021-09-26T23:30:46Z">
+        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteData" is-config="true" duration-ms="38" started-at="2021-09-26T23:35:06Z" finished-at="2021-09-26T23:35:06Z">
           <params>
             <param index="0">
               <value>
@@ -72,11 +72,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- deleteData -->
-        <test-method status="PASS" signature="testLogin2()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin2" duration-ms="12" started-at="2021-09-26T23:30:46Z" description="Test the rise Logn" finished-at="2021-09-26T23:30:46Z">
+        <test-method status="PASS" signature="testLogin2()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="testLogin2" duration-ms="12" started-at="2021-09-26T23:35:06Z" description="Test the rise Logn" finished-at="2021-09-26T23:35:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin2 -->
-        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteData" is-config="true" duration-ms="16" started-at="2021-09-26T23:30:46Z" finished-at="2021-09-26T23:30:46Z">
+        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteData" is-config="true" duration-ms="17" started-at="2021-09-26T23:35:06Z" finished-at="2021-09-26T23:35:06Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- deleteData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="tearDown" is-config="true" duration-ms="922" started-at="2021-09-26T23:30:46Z" finished-at="2021-09-26T23:30:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="tearDown" is-config="true" duration-ms="784" started-at="2021-09-26T23:35:06Z" finished-at="2021-09-26T23:35:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="deleteDataWithPrefix()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteDataWithPrefix" is-config="true" duration-ms="0" started-at="2021-09-26T23:30:47Z" finished-at="2021-09-26T23:30:47Z">
+        <test-method status="PASS" signature="deleteDataWithPrefix()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@60f82f98]" name="deleteDataWithPrefix" is-config="true" duration-ms="0" started-at="2021-09-26T23:35:07Z" finished-at="2021-09-26T23:35:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDataWithPrefix -->
