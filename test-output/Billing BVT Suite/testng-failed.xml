@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="Failed suite [Billing BVT Suite]" parallel="classes">
+  <parameter name="environment" value="config.properties"/>
+  <parameter name="buildName" value="0.0.1"/>
+  <parameter name="sendEmail" value="true"/>
+  <parameter name="qTestPropertyFile" value="stagingSmokeQtest.properties"/>
+  <parameter name="application" value="apttusSFDC"/>
+  <parameter name="reportName" value="Billing SFDC"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="sendEmailList" value="email.properties"/>
+  <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
+  <parameter name="runParallel" value="false"/>
+  <test name="RISE tests">
+    <groups>
+      <run>
+        <include name="Yug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.forys.rise.LoginTests.LoginTest"/>
+    </classes>
+  </test> <!-- RISE tests -->
+  <test name="RISE tests(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="Yug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.forys.rise.LoginTests.LoginTest">
+        <methods>
+          <include name="billingPlanTemplatewithInstallments"/>
+          <include name="deleteData"/>
+          <include name="LoginToAdminApp"/>
+          <include name="deleteDataWithPrefix"/>
+          <include name="loadData"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.forys.rise.LoginTests.LoginTest -->
+    </classes>
+  </test> <!-- RISE tests(failed) -->
+</suite> <!-- Failed suite [Billing BVT Suite] -->

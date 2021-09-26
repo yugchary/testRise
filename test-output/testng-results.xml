@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Exception observed while loading instance URL or deletion of data :: java.lang.NullPointerException: null value in entry: url=null]]>
+    </line>
+    <line>
+      <![CDATA[Exception observed while loading instance URL or deletion of data :: java.lang.NullPointerException: null value in entry: url=null]]>
+    </line>
+  </reporter-output>
+  <suite name="Rise Test Suite" duration-ms="13182" started-at="2021-09-25T17:56:44Z" finished-at="2021-09-25T17:56:58Z">
+    <groups>
+      <group name="Yug">
+        <method signature="LoginTest.testLogin()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="testLogin" class="com.forsys.rise.LoginTests.LoginTest"/>
+        <method signature="LoginTest.testLogin2()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="testLogin2" class="com.forsys.rise.LoginTests.LoginTest"/>
+      </group> <!-- Yug -->
+    </groups>
+    <test name="RISE tests" duration-ms="13182" started-at="2021-09-25T17:56:44Z" finished-at="2021-09-25T17:56:58Z">
+      <class name="com.forsys.rise.LoginTests.LoginTest">
+        <test-method status="PASS" signature="loadData(java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="loadData" is-config="true" duration-ms="21" started-at="2021-09-25T17:56:44Z" finished-at="2021-09-25T17:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="LoginToAdminApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="LoginToAdminApp" is-config="true" duration-ms="12216" started-at="2021-09-25T17:56:44Z" finished-at="2021-09-25T17:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAdminApp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="testLogin" duration-ms="23" started-at="2021-09-25T17:56:57Z" description="Test the rise Logn" finished-at="2021-09-25T17:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="deleteData" is-config="true" duration-ms="35" started-at="2021-09-25T17:56:57Z" finished-at="2021-09-25T17:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.forsys.rise.LoginTests.LoginTest.testLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Exception observed while loading instance URL or deletion of data :: java.lang.NullPointerException: null value in entry: url=null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method status="PASS" signature="testLogin2()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="testLogin2" duration-ms="20" started-at="2021-09-25T17:56:57Z" description="Test the rise Logn" finished-at="2021-09-25T17:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin2 -->
+        <test-method status="PASS" signature="deleteData(java.lang.reflect.Method)[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="deleteData" is-config="true" duration-ms="21" started-at="2021-09-25T17:56:57Z" finished-at="2021-09-25T17:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.forsys.rise.LoginTests.LoginTest.testLogin2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Exception observed while loading instance URL or deletion of data :: java.lang.NullPointerException: null value in entry: url=null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="tearDown" is-config="true" duration-ms="829" started-at="2021-09-25T17:56:57Z" finished-at="2021-09-25T17:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteDataWithPrefix()[pri:0, instance:com.forsys.rise.LoginTests.LoginTest@4883b407]" name="deleteDataWithPrefix" is-config="true" duration-ms="0" started-at="2021-09-25T17:56:58Z" finished-at="2021-09-25T17:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataWithPrefix -->
+      </class> <!-- com.forsys.rise.LoginTests.LoginTest -->
+    </test> <!-- RISE tests -->
+  </suite> <!-- Rise Test Suite -->
+</testng-results>

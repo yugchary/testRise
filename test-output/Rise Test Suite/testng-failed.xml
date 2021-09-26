@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Rise Test Suite]" parallel="classes">
+  <parameter name="environment" value="config.properties"/>
+  <parameter name="buildName" value="0.0.1"/>
+  <parameter name="sendEmail" value="true"/>
+  <parameter name="qTestPropertyFile" value="stagingSmokeQtest.properties"/>
+  <parameter name="application" value="forsysRISE"/>
+  <parameter name="reportName" value="Rise"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="sendEmailList" value="email.properties"/>
+  <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
+  <parameter name="runParallel" value="false"/>
+  <test name="RISE tests">
+    <groups>
+      <run>
+        <include name="Yug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.forsys.rise.LoginTests.LoginTest"/>
+    </classes>
+  </test> <!-- RISE tests -->
+</suite> <!-- Failed suite [Rise Test Suite] -->

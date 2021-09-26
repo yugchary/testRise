@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="application" value="forsysRISE" />
+	<parameter name="runParallel" value="false" />
+	<parameter name="environment" value="config.properties" />
+	<parameter name="browser" value="Chrome" />
+	<parameter name="hubURL" value="http://localhost:4444/wd/hub" />
+	<parameter name="buildName" value="0.0.1" />
+	<parameter name="reportName" value="Rise" />
+	<parameter name="sendEmail" value="true" />
+	<parameter name="sendEmailList" value="email.properties" />
+	<parameter name="qTestPropertyFile" value="stagingSmokeQtest.properties" />
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.forsys.rise.LoginTests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
